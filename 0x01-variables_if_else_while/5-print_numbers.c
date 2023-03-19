@@ -5,13 +5,12 @@
  */
 int main(void)
 {
-	int n = 48;
+	int n;
 
-	while (n <= 57)
+	for (n = 0; n <= 9; n++)
 	{
-		putchar(n);
-		n++;
+		printf("%d", n);
 	}
+	printf("\n");
 	return (0);
-	putchar('\n');
 }

@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.h" 
 /**
  * main -putchar to the screen
  * _putchar: prints the alphabet putchar
@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	_putchar("_");
+	_putchar('_');
 	_putchar('P');
 	_putchar('u');
 	_putchar('t');

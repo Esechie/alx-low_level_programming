@@ -10,8 +10,8 @@ void print_numbers(void)
 
 	if (i <= 48 && i <= 57)
 	{
-		_putchar(i);
+		_putchar("%d", i);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }

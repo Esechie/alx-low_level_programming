@@ -7,9 +7,9 @@
 
 void print_most_numbers(void)
 {
-	int x = 0;
+	int x;
 
-	for (; x <= 0; x++)
+	for (x = 0; x <= 0; x++)
 	{
 	if (x == 2 || x == 4)
 	{
@@ -20,5 +20,5 @@ void print_most_numbers(void)
 	_putchar(x + "0");
 	}
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
